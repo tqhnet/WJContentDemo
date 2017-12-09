@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HomeModel.h"
+#import "HomeModelFrame.h"
 
 @interface HomeStore : NSObject
 

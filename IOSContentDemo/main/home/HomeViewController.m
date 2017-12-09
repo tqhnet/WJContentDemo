@@ -47,6 +47,11 @@
     return self.store.dataArray.count;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    HomeModelFrame *modelFrame = self.store.dataArray[indexPath.row];
+    return modelFrame.cellHeight;
+}
+
 #pragma mark - 懒加载
 
 - (UITableView *)tableView {

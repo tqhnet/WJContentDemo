@@ -9,5 +9,10 @@
 #ifndef IOSContentDemoHeader_h
 #define IOSContentDemoHeader_h
 
+#import <YYWebImage.h>
+#import <QiniuSDK.h>
+#import <SVProgressHUD.h>
+
+#import "NSString+WJTool.h"
 
 #endif /* IOSContentDemoHeader_h */

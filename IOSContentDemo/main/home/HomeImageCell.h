@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HomeModel.h"
+#import "HomeModelFrame.h"
 
 @interface HomeImageCell : UITableViewCell
 
-@property (nonatomic,strong) HomeModel *model;
+@property (nonatomic,strong) HomeModelFrame *model;
 
 @end
