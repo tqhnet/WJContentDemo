@@ -1,0 +1,21 @@
+//
+//  ContentPrefixHeader.pch
+//  IOSContentDemo
+//
+//  Created by tqh on 2017/12/8.
+//  Copyright © 2017年 tqh. All rights reserved.
+//
+
+#ifndef ContentPrefixHeader_pch
+#define ContentPrefixHeader_pch
+
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "IOSContentDemoHeader.h"
+
+#endif
+
+#endif /* ContentPrefixHeader_pch */

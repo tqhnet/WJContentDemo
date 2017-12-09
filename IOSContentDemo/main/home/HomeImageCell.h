@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeImageCell.h
 //  IOSContentDemo
 //
 //  Created by tqh on 2017/12/8.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HomeModel.h"
 
-@interface ViewController : UIViewController
+@interface HomeImageCell : UITableViewCell
 
+@property (nonatomic,strong) HomeModel *model;
 
 @end
-
