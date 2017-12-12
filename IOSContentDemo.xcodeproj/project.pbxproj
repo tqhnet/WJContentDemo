@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D5F9BC41FDD7AFB0017902B /* HomeMusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F9BC31FDD7AFB0017902B /* HomeMusicCell.m */; };
 		0D86DB9E1FDC343100378FC1 /* HomeModelFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D86DB9D1FDC343100378FC1 /* HomeModelFrame.m */; };
 		0D86DBA11FDC506A00378FC1 /* NSString+WJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D86DBA01FDC506A00378FC1 /* NSString+WJTool.m */; };
 		0DE484901FDA4055001637E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4848F1FDA4055001637E7 /* main.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D5F9BC21FDD7AFB0017902B /* HomeMusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMusicCell.h; sourceTree = "<group>"; };
+		0D5F9BC31FDD7AFB0017902B /* HomeMusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeMusicCell.m; sourceTree = "<group>"; };
 		0D86DB9C1FDC343100378FC1 /* HomeModelFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModelFrame.h; sourceTree = "<group>"; };
 		0D86DB9D1FDC343100378FC1 /* HomeModelFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModelFrame.m; sourceTree = "<group>"; };
 		0D86DB9F1FDC506A00378FC1 /* NSString+WJTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WJTool.h"; sourceTree = "<group>"; };
@@ -185,6 +188,8 @@
 				0D86DB9D1FDC343100378FC1 /* HomeModelFrame.m */,
 				0DE484CD1FDA6484001637E7 /* HomeImageCell.h */,
 				0DE484CE1FDA6484001637E7 /* HomeImageCell.m */,
+				0D5F9BC21FDD7AFB0017902B /* HomeMusicCell.h */,
+				0D5F9BC31FDD7AFB0017902B /* HomeMusicCell.m */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -412,6 +417,7 @@
 				0DE484901FDA4055001637E7 /* main.m in Sources */,
 				0DE484C91FDA6103001637E7 /* HomeViewController.m in Sources */,
 				0D86DBA11FDC506A00378FC1 /* NSString+WJTool.m in Sources */,
+				0D5F9BC41FDD7AFB0017902B /* HomeMusicCell.m in Sources */,
 				0D86DB9E1FDC343100378FC1 /* HomeModelFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

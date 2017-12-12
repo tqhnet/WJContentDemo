@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 #import "HomeStore.h"
 #import "HomeImageCell.h"
+#import "HomeMusicCell.h"
 
 @interface HomeViewController () <UITableViewDelegate,UITableViewDataSource>
 
@@ -38,9 +39,17 @@
 #pragma mark - <UITableViewDelegate,UITableViewDataSource>
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    HomeImageCell *cell = [tableView dequeueReusableCellWithIdentifier:@"imageCellID"];
-    cell.model = self.store.dataArray[indexPath.row];
-    return cell;
+    HomeModelFrame *modelFrame = self.store.dataArray[indexPath.row];
+    if (modelFrame.model.resourceType == 1) {
+        HomeMusicCell *cell = [tableView dequeueReusableCellWithIdentifier:@"musicCellID"];
+        cell.model = modelFrame;
+        return cell;
+    }else {
+        HomeImageCell *cell = [tableView dequeueReusableCellWithIdentifier:@"imageCellID"];
+        cell.model = modelFrame;
+        return cell;
+    }
+    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -60,6 +69,7 @@
         _tableView.dataSource = self;
         _tableView.delegate = self;
         [_tableView registerClass:[HomeImageCell class] forCellReuseIdentifier:@"imageCellID"];
+        [_tableView registerClass:[HomeMusicCell class] forCellReuseIdentifier:@"musicCellID"];
     }
     return _tableView;
 }

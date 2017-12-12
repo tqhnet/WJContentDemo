@@ -14,7 +14,13 @@
     self = [super init];
     if (self) {
         _model = model;
-        _cellHeight = 200;
+        
+        if (model.resourceType == 1) {
+            _cellHeight = 80;
+        }else {
+            _cellHeight = 200;
+        }
+        
     }
     return self;
 }

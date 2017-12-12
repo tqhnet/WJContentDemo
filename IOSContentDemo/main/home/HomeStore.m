@@ -19,6 +19,9 @@
         if (i == 3) {
         model.coverImage = @"https://ww3.sinaimg.cn/large/bd698b0fly1fmadeb9jwlg20a6074doj.gif";
         }
+        if (i == 5) {
+            model.resourceType = 1;
+        }
         HomeModelFrame *modelFrame = [[HomeModelFrame alloc]initWithHomeModel:model];
         [self.dataArray addObject:modelFrame];
     }
