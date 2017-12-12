@@ -297,6 +297,7 @@
 				TargetAttributes = {
 					0DE4848A1FDA4055001637E7 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 87S2AUX254;
 						ProvisioningStyle = Automatic;
 					};
 					0DE484A31FDA4055001637E7 = {
@@ -560,12 +561,13 @@
 			baseConfigurationReference = 503BED3DABC7911F12809A90 /* Pods-IOSContentDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87S2AUX254;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/IOSContentDemo/ContentPrefixHeader.pch";
 				INFOPLIST_FILE = IOSContentDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tqh.IOSContentDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moyou.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -575,12 +577,13 @@
 			baseConfigurationReference = 36DA36CFE8D74C775AEE374D /* Pods-IOSContentDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87S2AUX254;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/IOSContentDemo/ContentPrefixHeader.pch";
 				INFOPLIST_FILE = IOSContentDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tqh.IOSContentDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moyou.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
