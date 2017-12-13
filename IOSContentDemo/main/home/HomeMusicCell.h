@@ -13,5 +13,6 @@
 @interface HomeMusicCell : UITableViewCell
 
 @property (nonatomic,strong) HomeModelFrame *model;
+@property (nonatomic,copy) dispatch_block_t didPlayBlock;
 
 @end

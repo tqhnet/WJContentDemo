@@ -21,6 +21,11 @@
         }
         if (i == 5) {
             model.resourceType = 1;
+            model.musicUrl = @"http://mp3tuijian.9ku.com/tuijian/2015/07-06/665486.mp3";
+        }
+        if (i == 7) {
+            model.resourceType = 1;
+            model.musicUrl = @"http://sc1.111ttt.com/2017/1/11/11/304112004168.mp3";
         }
         HomeModelFrame *modelFrame = [[HomeModelFrame alloc]initWithHomeModel:model];
         [self.dataArray addObject:modelFrame];

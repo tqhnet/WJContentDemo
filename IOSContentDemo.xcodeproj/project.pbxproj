@@ -10,6 +10,7 @@
 		0D5F9BC41FDD7AFB0017902B /* HomeMusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F9BC31FDD7AFB0017902B /* HomeMusicCell.m */; };
 		0D86DB9E1FDC343100378FC1 /* HomeModelFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D86DB9D1FDC343100378FC1 /* HomeModelFrame.m */; };
 		0D86DBA11FDC506A00378FC1 /* NSString+WJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D86DBA01FDC506A00378FC1 /* NSString+WJTool.m */; };
+		0DE1908A1FDFB62D00C70F52 /* WJNetAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE190891FDFB62D00C70F52 /* WJNetAudioPlayer.m */; };
 		0DE484901FDA4055001637E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4848F1FDA4055001637E7 /* main.m */; };
 		0DE484931FDA4055001637E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE484921FDA4055001637E7 /* AppDelegate.m */; };
 		0DE4849B1FDA4055001637E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE4849A1FDA4055001637E7 /* Assets.xcassets */; };
@@ -47,6 +48,8 @@
 		0D86DB9D1FDC343100378FC1 /* HomeModelFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModelFrame.m; sourceTree = "<group>"; };
 		0D86DB9F1FDC506A00378FC1 /* NSString+WJTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WJTool.h"; sourceTree = "<group>"; };
 		0D86DBA01FDC506A00378FC1 /* NSString+WJTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WJTool.m"; sourceTree = "<group>"; };
+		0DE190881FDFB62D00C70F52 /* WJNetAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJNetAudioPlayer.h; sourceTree = "<group>"; };
+		0DE190891FDFB62D00C70F52 /* WJNetAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJNetAudioPlayer.m; sourceTree = "<group>"; };
 		0DE4848B1FDA4055001637E7 /* IOSContentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSContentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE4848F1FDA4055001637E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DE484911FDA4055001637E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -204,6 +207,8 @@
 		0DE484C61FDA60DD001637E7 /* tool */ = {
 			isa = PBXGroup;
 			children = (
+				0DE190881FDFB62D00C70F52 /* WJNetAudioPlayer.h */,
+				0DE190891FDFB62D00C70F52 /* WJNetAudioPlayer.m */,
 				0D86DB9F1FDC506A00378FC1 /* NSString+WJTool.h */,
 				0D86DBA01FDC506A00378FC1 /* NSString+WJTool.m */,
 			);
@@ -411,6 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DE1908A1FDFB62D00C70F52 /* WJNetAudioPlayer.m in Sources */,
 				0DE484CC1FDA63CD001637E7 /* HomeStore.m in Sources */,
 				0DE484931FDA4055001637E7 /* AppDelegate.m in Sources */,
 				0DE484D21FDA650F001637E7 /* HomeModel.m in Sources */,

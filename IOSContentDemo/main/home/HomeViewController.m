@@ -43,6 +43,10 @@
     if (modelFrame.model.resourceType == 1) {
         HomeMusicCell *cell = [tableView dequeueReusableCellWithIdentifier:@"musicCellID"];
         cell.model = modelFrame;
+        __weak typeof(self) myself = self;
+        cell.didPlayBlock=^(){
+            [myself.tableView reloadData];
+        };
         return cell;
     }else {
         HomeImageCell *cell = [tableView dequeueReusableCellWithIdentifier:@"imageCellID"];

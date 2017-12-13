@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FreeStreamer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>HappyDNS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -20,6 +25,11 @@
 			<false/>
 		</dict>
 		<key>Qiniu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Reachability.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,22 +57,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0CBDE219A96709600F0649331FD56C55</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>53B2B897D64E4516E75AC86348B86622</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5912470587C5E3690D80774C5C04F803</key>
+		<key>67F16470C758498FA1617A84B3D2DD40</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7DB845650D674A0ED016AE43D776BAF0</key>
+		<key>89E44A2541A602E19E1C023268B43B2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90B84A43579385297D80A2C2F8218EF6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9C3B6E993B7ABFE6B3A66E7C1F7DF1FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9CE6D4703E8FF9153D8D87B60F5FD4A2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,17 +92,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A256291E5CF8AE59830A554135254AD6</key>
+		<key>AD75B0AFC6A30B61E05D00DC86E5C2A1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B07B03E745AB4BA27EDC1AB178D7F067</key>
+		<key>BF4896097AC1E6F05895E3B4DBBD1DE1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CE1C9913A4372088D2271E2AD9A01B50</key>
+		<key>D4130F1B61B971DCAD7671D5045C717F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

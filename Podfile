@@ -6,5 +6,6 @@ target 'IOSContentDemo' do
 pod 'SVProgressHUD'
 pod 'YYWebImage'
 pod 'Qiniu'
+pod 'FreeStreamer'
 
 end

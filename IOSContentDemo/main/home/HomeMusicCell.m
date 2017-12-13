@@ -7,6 +7,7 @@
 //
 
 #import "HomeMusicCell.h"
+#import "WJNetAudioPlayer.h"
 
 @interface HomeMusicCell ()
 
@@ -34,13 +35,22 @@
     
     self.playButton.frame = CGRectMake(100, 0, 80, 80);
     self.titleLabel.frame = CGRectMake(0, 0, 100, 80);
-    
+
+    self.playButton.selected = [[WJNetAudioPlayer sharedManager] isPlayAudioWithUrlString:model.model.musicUrl];
 }
 
 #pragma mark - 事件监听
 
 - (void)buttonPressed:(UIButton *)sender {
     sender.selected = !sender.selected;
+    if (sender.selected) {
+        [[WJNetAudioPlayer sharedManager] playWithUrlString:self.model.model.musicUrl];
+    }else {
+        [[WJNetAudioPlayer sharedManager] pause];
+    }
+    if (self.didPlayBlock) {
+        self.didPlayBlock();
+    }
 }
 
 #pragma mark - 懒加载
